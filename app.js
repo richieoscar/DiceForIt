@@ -9,13 +9,13 @@ let diceTwo = 0;
 let header = document.querySelector("h1");
 
 playerOneButtun.addEventListener("click", () => {
-  header.innerHTML = "Casino Royale";
+  header.innerHTML = "Dice For It";
   diceOne = rollDiceOne();
   calculateWinner();
 });
 
 playerTwoButtun.addEventListener("click", () => {
-  header.innerHTML = "Casino Royale";
+  header.innerHTML = "Dice For It";
   diceTwo = rollDiceTwo();
   calculateWinner();
 });
