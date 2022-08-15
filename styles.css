@@ -37,10 +37,11 @@ img {
 .btn{
   width: 20%;
   background-color: #4ECCA3;;
-  color: white;
+  color: black;
   padding: 10px;
   border-radius: 10px;
   margin: 4% 1%;
+  font-weight: bold;
 
 }
 .btn-con{
