@@ -53,11 +53,11 @@ function rollDiceOne() {
   let ran = generateRandaom();
   console.log(ran);
   if (ran === 1) {
-    imgOne.setAttribute("src", "/images/dice1.png");
+    imgOne.setAttribute("src", "./images/dice1.png");
   } else if (ran === 2) {
-    imgOne.setAttribute("src", "/images/dice2.png");
+    imgOne.setAttribute("src", "./images/dice2.png");
   } else if (ran === 3) {
-    imgOne.setAttribute("src", "/images/dice3.png");
+    imgOne.setAttribute("src", "./images/dice3.png");
   } else if (ran == 4) {
     imgOne.setAttribute("src", "./images/dice4.png");
   } else if (ran === 5) {
@@ -72,11 +72,11 @@ function rollDiceTwo() {
   let ran = generateRandaom();
   console.log(ran);
   if (ran === 1) {
-    imgTwo.setAttribute("src", "/images/dice1.png");
+    imgTwo.setAttribute("src", "./images/dice1.png");
   } else if (ran === 2) {
-    imgTwo.setAttribute("src", "/images/dice2.png");
+    imgTwo.setAttribute("src", "./images/dice2.png");
   } else if (ran === 3) {
-    imgTwo.setAttribute("src", "/images/dice3.png");
+    imgTwo.setAttribute("src", "./images/dice3.png");
   } else if (ran == 4) {
     imgTwo.setAttribute("src", "./images/dice4.png");
   } else if (ran === 5) {
