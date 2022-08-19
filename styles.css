@@ -1,5 +1,4 @@
 .container {
-  width: 70%;
   margin: auto;
   text-align: center;
 }
@@ -34,7 +33,7 @@ img {
 }
 
 
-.btn{
+.btnn{
   width: 20%;
   background-color: #4ECCA3;;
   color: black;
@@ -44,7 +43,7 @@ img {
   font-weight: bold;
 
 }
-.btn-con{
+.btnn-con{
   width: 75%;
   text-align: center;
   margin: 1% auto 1% auto;
@@ -57,4 +56,21 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+@media (max-width: 1028px){
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .container img {
+    width: 50%;
+  }
+  .dice {
+    text-align: center;
+    display: inline;
+  
+  }
+  
 }
